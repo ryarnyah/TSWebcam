@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-TSWebcam/Pods-TSWebcam-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/HaishinKit/HaishinKit.framework
+${BUILT_PRODUCTS_DIR}/Logboard/Logboard.framework

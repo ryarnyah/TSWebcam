@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FFBBAD29-150A-491B-95AC-EAC355875B89"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF981A88-E9DD-484F-A82C-1807BBBB0B05"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/TSWebcam-ceoybrkmrmeiyzdhyewhhkqczftd/SourcePackages/checkouts/HaishinKit.swift/Sources/ISO/TSWriter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "writeSampleBuffer(_:streamID:bytes:count:presentationTimeStamp:decodeTimeStamp:randomAccessIndicator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A792E28-3AF6-4C3B-A974-AE9ACB48479D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/TSWebcam-ceoybrkmrmeiyzdhyewhhkqczftd/SourcePackages/checkouts/HaishinKit.swift/Sources/ISO/TSWriter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "writeSampleBuffer(_:streamID:bytes:count:presentationTimeStamp:decodeTimeStamp:randomAccessIndicator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2B03FC4-C920-4054-A3C6-72B41EF1D1B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/TSWebcam-ceoybrkmrmeiyzdhyewhhkqczftd/SourcePackages/checkouts/HaishinKit.swift/Sources/ISO/TSWriter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "writeSampleBuffer(_:streamID:bytes:count:presentationTimeStamp:decodeTimeStamp:randomAccessIndicator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "661EFE4E-CD97-4773-B93F-C03868302738"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/TSWebcam-ceoybrkmrmeiyzdhyewhhkqczftd/SourcePackages/checkouts/HaishinKit.swift/Sources/ISO/TSWriter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "writeSampleBuffer(_:streamID:bytes:count:presentationTimeStamp:decodeTimeStamp:randomAccessIndicator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "227BC1B0-BE6E-4C23-B1A0-DB37D517EEFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/TSWebcam-ceoybrkmrmeiyzdhyewhhkqczftd/SourcePackages/checkouts/HaishinKit.swift/Sources/ISO/TSWriter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "writeSampleBuffer(_:streamID:bytes:count:presentationTimeStamp:decodeTimeStamp:randomAccessIndicator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63094137-FFEE-4E31-927D-6B3EC1BE9E7B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/TSWebcam-ceoybrkmrmeiyzdhyewhhkqczftd/SourcePackages/checkouts/HaishinKit.swift/Sources/Util/Setting.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

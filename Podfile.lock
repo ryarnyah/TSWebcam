@@ -1,0 +1,24 @@
+PODS:
+  - CocoaAsyncSocket (7.6.4)
+  - HaishinKit (1.0.8):
+    - Logboard (~> 2.1.2)
+  - Logboard (2.1.2)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (~> 7.6.4)
+  - HaishinKit (~> 1.0.8)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaAsyncSocket
+    - HaishinKit
+    - Logboard
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  HaishinKit: c620b58d2b5e4d7032b6447cd57f127f25c074df
+  Logboard: e3342fa111e26268bb89577e6a40a0660a423ddd
+
+PODFILE CHECKSUM: 6f0361c996270056efde3dd5ada841876e1a2108
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2041E55D2BF30B93035D580D /* Pods_TSWebcam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EA40BF088EF86D0A615061 /* Pods_TSWebcam.framework */; };
+		423678F22450FE7800B3DEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423678F12450FE7800B3DEA4 /* AppDelegate.swift */; };
+		423678F42450FE7800B3DEA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423678F32450FE7800B3DEA4 /* SceneDelegate.swift */; };
+		423678F62450FE7800B3DEA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423678F52450FE7800B3DEA4 /* ViewController.swift */; };
+		423678F92450FE7800B3DEA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423678F72450FE7800B3DEA4 /* Main.storyboard */; };
+		423678FC2450FE7800B3DEA4 /* TSWebcam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 423678FA2450FE7800B3DEA4 /* TSWebcam.xcdatamodeld */; };
+		423678FE2450FE7B00B3DEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423678FD2450FE7B00B3DEA4 /* Assets.xcassets */; };
+		423679012450FE7B00B3DEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423678FF2450FE7B00B3DEA4 /* LaunchScreen.storyboard */; };
+		423679252450FECE00B3DEA4 /* TSSocketStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423679242450FECE00B3DEA4 /* TSSocketStream.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		423679082450FE7B00B3DEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423678E62450FE7800B3DEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423678ED2450FE7800B3DEA4;
+			remoteInfo = TSWebcam;
+		};
+		423679132450FE7B00B3DEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423678E62450FE7800B3DEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423678ED2450FE7800B3DEA4;
+			remoteInfo = TSWebcam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		423678EE2450FE7800B3DEA4 /* TSWebcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSWebcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423678F12450FE7800B3DEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		423678F32450FE7800B3DEA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		423678F52450FE7800B3DEA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		423678F82450FE7800B3DEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		423678FB2450FE7800B3DEA4 /* TSWebcam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TSWebcam.xcdatamodel; sourceTree = "<group>"; };
+		423678FD2450FE7B00B3DEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423679002450FE7B00B3DEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		423679022450FE7B00B3DEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423679072450FE7B00B3DEA4 /* TSWebcamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSWebcamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		423679122450FE7B00B3DEA4 /* TSWebcamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSWebcamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		423679242450FECE00B3DEA4 /* TSSocketStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSocketStream.swift; sourceTree = "<group>"; };
+		549C5DF38D61B5768F33F75E /* Pods-TSWebcam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSWebcam.debug.xcconfig"; path = "Target Support Files/Pods-TSWebcam/Pods-TSWebcam.debug.xcconfig"; sourceTree = "<group>"; };
+		A0CFAE67868312309C129955 /* Pods-TSWebcam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSWebcam.release.xcconfig"; path = "Target Support Files/Pods-TSWebcam/Pods-TSWebcam.release.xcconfig"; sourceTree = "<group>"; };
+		F6EA40BF088EF86D0A615061 /* Pods_TSWebcam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSWebcam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423678EB2450FE7800B3DEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2041E55D2BF30B93035D580D /* Pods_TSWebcam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423679042450FE7B00B3DEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4236790F2450FE7B00B3DEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423678E52450FE7800B3DEA4 = {
+			isa = PBXGroup;
+			children = (
+				423678F02450FE7800B3DEA4 /* TSWebcam */,
+				423678EF2450FE7800B3DEA4 /* Products */,
+				9BBFD4CE9676083D83E379C4 /* Pods */,
+				A162E3C2062378B7574307AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		423678EF2450FE7800B3DEA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423678EE2450FE7800B3DEA4 /* TSWebcam.app */,
+				423679072450FE7B00B3DEA4 /* TSWebcamTests.xctest */,
+				423679122450FE7B00B3DEA4 /* TSWebcamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423678F02450FE7800B3DEA4 /* TSWebcam */ = {
+			isa = PBXGroup;
+			children = (
+				423678F12450FE7800B3DEA4 /* AppDelegate.swift */,
+				423678F32450FE7800B3DEA4 /* SceneDelegate.swift */,
+				423678F52450FE7800B3DEA4 /* ViewController.swift */,
+				423678F72450FE7800B3DEA4 /* Main.storyboard */,
+				423678FD2450FE7B00B3DEA4 /* Assets.xcassets */,
+				423678FF2450FE7B00B3DEA4 /* LaunchScreen.storyboard */,
+				423679022450FE7B00B3DEA4 /* Info.plist */,
+				423678FA2450FE7800B3DEA4 /* TSWebcam.xcdatamodeld */,
+				423679242450FECE00B3DEA4 /* TSSocketStream.swift */,
+			);
+			path = TSWebcam;
+			sourceTree = "<group>";
+		};
+		9BBFD4CE9676083D83E379C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				549C5DF38D61B5768F33F75E /* Pods-TSWebcam.debug.xcconfig */,
+				A0CFAE67868312309C129955 /* Pods-TSWebcam.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A162E3C2062378B7574307AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA40BF088EF86D0A615061 /* Pods_TSWebcam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423678ED2450FE7800B3DEA4 /* TSWebcam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4236791B2450FE7B00B3DEA4 /* Build configuration list for PBXNativeTarget "TSWebcam" */;
+			buildPhases = (
+				80141AAF238FBB09BC1849D9 /* [CP] Check Pods Manifest.lock */,
+				423678EA2450FE7800B3DEA4 /* Sources */,
+				423678EB2450FE7800B3DEA4 /* Frameworks */,
+				423678EC2450FE7800B3DEA4 /* Resources */,
+				8ACD20580BD6E2CAB37717AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSWebcam;
+			productName = TSWebcam;
+			productReference = 423678EE2450FE7800B3DEA4 /* TSWebcam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		423679062450FE7B00B3DEA4 /* TSWebcamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4236791E2450FE7B00B3DEA4 /* Build configuration list for PBXNativeTarget "TSWebcamTests" */;
+			buildPhases = (
+				423679032450FE7B00B3DEA4 /* Sources */,
+				423679042450FE7B00B3DEA4 /* Frameworks */,
+				423679052450FE7B00B3DEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423679092450FE7B00B3DEA4 /* PBXTargetDependency */,
+			);
+			name = TSWebcamTests;
+			productName = TSWebcamTests;
+			productReference = 423679072450FE7B00B3DEA4 /* TSWebcamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		423679112450FE7B00B3DEA4 /* TSWebcamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423679212450FE7B00B3DEA4 /* Build configuration list for PBXNativeTarget "TSWebcamUITests" */;
+			buildPhases = (
+				4236790E2450FE7B00B3DEA4 /* Sources */,
+				4236790F2450FE7B00B3DEA4 /* Frameworks */,
+				423679102450FE7B00B3DEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423679142450FE7B00B3DEA4 /* PBXTargetDependency */,
+			);
+			name = TSWebcamUITests;
+			productName = TSWebcamUITests;
+			productReference = 423679122450FE7B00B3DEA4 /* TSWebcamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423678E62450FE7800B3DEA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = HCK;
+				TargetAttributes = {
+					423678ED2450FE7800B3DEA4 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					423679062450FE7B00B3DEA4 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 423678ED2450FE7800B3DEA4;
+					};
+					423679112450FE7B00B3DEA4 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 423678ED2450FE7800B3DEA4;
+					};
+				};
+			};
+			buildConfigurationList = 423678E92450FE7800B3DEA4 /* Build configuration list for PBXProject "TSWebcam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423678E52450FE7800B3DEA4;
+			productRefGroup = 423678EF2450FE7800B3DEA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423678ED2450FE7800B3DEA4 /* TSWebcam */,
+				423679062450FE7B00B3DEA4 /* TSWebcamTests */,
+				423679112450FE7B00B3DEA4 /* TSWebcamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423678EC2450FE7800B3DEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423679012450FE7B00B3DEA4 /* LaunchScreen.storyboard in Resources */,
+				423678FE2450FE7B00B3DEA4 /* Assets.xcassets in Resources */,
+				423678F92450FE7800B3DEA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423679052450FE7B00B3DEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423679102450FE7B00B3DEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80141AAF238FBB09BC1849D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TSWebcam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ACD20580BD6E2CAB37717AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TSWebcam/Pods-TSWebcam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TSWebcam/Pods-TSWebcam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TSWebcam/Pods-TSWebcam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423678EA2450FE7800B3DEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423678F62450FE7800B3DEA4 /* ViewController.swift in Sources */,
+				423678F22450FE7800B3DEA4 /* AppDelegate.swift in Sources */,
+				423678F42450FE7800B3DEA4 /* SceneDelegate.swift in Sources */,
+				423678FC2450FE7800B3DEA4 /* TSWebcam.xcdatamodeld in Sources */,
+				423679252450FECE00B3DEA4 /* TSSocketStream.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423679032450FE7B00B3DEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4236790E2450FE7B00B3DEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		423679092450FE7B00B3DEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423678ED2450FE7800B3DEA4 /* TSWebcam */;
+			targetProxy = 423679082450FE7B00B3DEA4 /* PBXContainerItemProxy */;
+		};
+		423679142450FE7B00B3DEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423678ED2450FE7800B3DEA4 /* TSWebcam */;
+			targetProxy = 423679132450FE7B00B3DEA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		423678F72450FE7800B3DEA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423678F82450FE7800B3DEA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		423678FF2450FE7B00B3DEA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423679002450FE7B00B3DEA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		423679192450FE7B00B3DEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4236791A2450FE7B00B3DEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4236791C2450FE7B00B3DEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549C5DF38D61B5768F33F75E /* Pods-TSWebcam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN7T27644J;
+				INFOPLIST_FILE = TSWebcam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hck.TSWebcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4236791D2450FE7B00B3DEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CFAE67868312309C129955 /* Pods-TSWebcam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN7T27644J;
+				INFOPLIST_FILE = TSWebcam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hck.TSWebcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4236791F2450FE7B00B3DEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN7T27644J;
+				INFOPLIST_FILE = TSWebcamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hck.TSWebcamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSWebcam.app/TSWebcam";
+			};
+			name = Debug;
+		};
+		423679202450FE7B00B3DEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN7T27644J;
+				INFOPLIST_FILE = TSWebcamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hck.TSWebcamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSWebcam.app/TSWebcam";
+			};
+			name = Release;
+		};
+		423679222450FE7B00B3DEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN7T27644J;
+				INFOPLIST_FILE = TSWebcamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hck.TSWebcamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TSWebcam;
+			};
+			name = Debug;
+		};
+		423679232450FE7B00B3DEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN7T27644J;
+				INFOPLIST_FILE = TSWebcamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hck.TSWebcamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TSWebcam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423678E92450FE7800B3DEA4 /* Build configuration list for PBXProject "TSWebcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423679192450FE7B00B3DEA4 /* Debug */,
+				4236791A2450FE7B00B3DEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4236791B2450FE7B00B3DEA4 /* Build configuration list for PBXNativeTarget "TSWebcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4236791C2450FE7B00B3DEA4 /* Debug */,
+				4236791D2450FE7B00B3DEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4236791E2450FE7B00B3DEA4 /* Build configuration list for PBXNativeTarget "TSWebcamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4236791F2450FE7B00B3DEA4 /* Debug */,
+				423679202450FE7B00B3DEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423679212450FE7B00B3DEA4 /* Build configuration list for PBXNativeTarget "TSWebcamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423679222450FE7B00B3DEA4 /* Debug */,
+				423679232450FE7B00B3DEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		423678FA2450FE7800B3DEA4 /* TSWebcam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				423678FB2450FE7800B3DEA4 /* TSWebcam.xcdatamodel */,
+			);
+			currentVersion = 423678FB2450FE7800B3DEA4 /* TSWebcam.xcdatamodel */;
+			path = TSWebcam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 423678E62450FE7800B3DEA4 /* Project object */;
+}
